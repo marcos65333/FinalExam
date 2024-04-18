@@ -115,10 +115,10 @@ This downloads a directory called nagios-4.4.6 to your current working directory
     sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
     
 > [!IMPORTANT]
-> Se te pedirá que proporciones una contraseña para el usuario y que la confirmes.
+> You will be asked to provide a password for the user and confirm it.
 
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/7feb9fbe-b474-4a2c-a515-bcdeece6774e)
-
+> The password is written to the /usr/local/nagios/etc/htpasswd.users file.
 
 ## Usage 
 -Nagios is important for several reasons:
