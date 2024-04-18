@@ -67,7 +67,7 @@ Place text here
     Step 2: Install packages 
 	``` sudo apt install wget unzip vim curl gcc openssl build-essential libgd-dev libssl-dev libapache2-mod-php php-gd php apache2 ```
 
-Step 3: Download Nagios Core on Ubunto 20.04. execute the follow command
+### Step 3: Download Nagios Core on Ubunto 20.04. execute the follow command
 	```  export VER="4.4.6" ```
 	```  curl -SL https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-$VER/nagios-$VER.tar.gz | tar -xzf - ```
 	```  This downloads a directory called nagios-4.4.6 to your current working directory. ```
