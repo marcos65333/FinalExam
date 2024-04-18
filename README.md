@@ -50,7 +50,7 @@ Place text here
 	  * Service Configuration and Monitoring: Understanding the workings of the services you intend to monitor with Nagios, as well as the ability to configure these services to enable monitoring.
 		
     Instalación 
-	  * Linux
+	  * Linux Ubuntu 20.04
 	  * Apache
 	  * Docker
     
@@ -63,7 +63,8 @@ Place text here
     Steps for Nagios installation
     	Step 1: Update the System
   	 	``` sudo apt update sudo apt upgrade  ```
-   
+   	Step 2: Install packages 
+  	 	``` sudo apt install wget unzip vim curl gcc openssl build-essential libgd-dev libssl-dev libapache2-mod-php php-gd php apache2 ```
 
     
 
