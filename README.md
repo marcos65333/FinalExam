@@ -60,9 +60,9 @@ Place text here
 		Item3 - plugins 
     Clientes (Client)
 
-		Steps for Nagios installation
-    Step 1: Update the System
-  	 ``` sudo apt update sudo apt upgrade  ```
+    Steps for Nagios installation
+    	Step 1: Update the System
+  	 	``` sudo apt update sudo apt upgrade  ```
    
 
     
