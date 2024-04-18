@@ -49,7 +49,7 @@ Place text here
   * Shell Scripting: Basic proficiency in Linux shell scripting (e.g., bash) can prove helpful for customizing and automating tasks within Nagios.
   * Service Configuration and Monitoring: Understanding the workings of the services you intend to monitor with Nagios, as well as the ability to configure these services to enable monitoring.
 	
- Instalación (Installation)
+ 		Instalación (Installation)
   * Linux
   * Apache
   * Docker
