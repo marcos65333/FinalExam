@@ -120,6 +120,10 @@ This downloads a directory called nagios-4.4.6 to your current working directory
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/7feb9fbe-b474-4a2c-a515-bcdeece6774e)
 > The password is written to the /usr/local/nagios/etc/htpasswd.users file.
 
+##  Step 6: Install the Nagios plugins
+Plugins are used to extend the functionality of Nagios. You can check out the latest plugins from GitHub.
+To download the plugins, run the command
+>     sudo 
 ## Usage 
 -Nagios is important for several reasons:
 
