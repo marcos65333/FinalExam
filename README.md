@@ -58,7 +58,17 @@ Place text here
 		Clientes (Client)
 
 ### Usage (Por qué es importante usarlo)
+-Nagios is important for several reasons:
 
+ * Infrastructure Monitoring: Nagios enables real-time monitoring of IT infrastructure, including servers, networks, services, and applications. This is essential for identifying performance 
+ * or availability issues before they impact end users.
+ * Proactive Alerts: Nagios automatically notifies system administrators of any detected problems or anomalies in the infrastructure. These alerts enable IT operations teams to respond quickly 
+   and address issues before they escalate into crises.
+ * Downtime Reduction: By proactively detecting and resolving issues, Nagios helps minimize unplanned downtime. This increases the availability of critical business services and applications.
+ * Resource Optimization: Nagios enables efficient management of IT resources by providing detailed insights into system performance and utilization. This helps identify areas for improvement 
+   and optimize infrastructure capacity.
+ * Historical Data and Analysis: Nagios logs monitoring data over time, facilitating trend analysis and long-term planning. This helps identify behavioral patterns and predict future resource 
+   needs.
 Place text here
 
 ### FAQ (Preguntas y respuestas)
