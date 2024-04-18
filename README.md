@@ -7,7 +7,7 @@ Nagios monitoring guide
 | Marcos Tovar          | UniBarranquilla - IUB                |
 | Juan Muñoz            | UniBarranquilla - IUB                |
 
-### Abstract
+# Abstract
 	
 This guide is designed to provide a comprehensive overview of implementing and utilizing Nagios for effective monitoring of IT infrastructure. Created by experts from UniBarranquilla, this document details the essential prerequisites, installation steps, and operational procedures necessary to deploy Nagios effectively. Through real-time monitoring of servers, networks, services, and applications, Nagios offers invaluable insights into system performance and health. This guide aims to equip system administrators with the necessary tools and knowledge to proactively address issues, minimize downtime, and optimize resources. Furthermore, it includes practical examples, such as screenshots and detailed descriptions of key ICT tools, to assist in the practical application of Nagios in a variety of IT environments.
 	
@@ -62,12 +62,12 @@ Place text here
 
 # Steps for Nagios installation
     
-### Step 1: Update the System
+## Step 1: Update the System
 	sudo apt update sudo apt upgrade  
-### Step 2: Install packages 
+## Step 2: Install packages 
 	sudo apt install wget unzip vim curl gcc openssl build-essential libgd-dev libssl-dev libapache2-mod-php php-gd php apache2 ```
 
-### Step 3: Download Nagios Core on Ubunto 20.04. execute the follow command
+## Step 3: Download Nagios Core on Ubunto 20.04. execute the follow command
     export VER="4.4.6" 
     curl -SL https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-$VER/nagios-$VER.tar.gz | tar -xzf - 
 This downloads a directory called nagios-4.4.6 to your current working directory. 
@@ -88,7 +88,7 @@ This downloads a directory called nagios-4.4.6 to your current working directory
    needs.
 Place text here
 
-### FAQ 
+# FAQ 
 
 5 preguntas y respuestas
 
@@ -96,7 +96,7 @@ Place text here
  * mantoniotovar@unibarranquilla.edu.co
  * juandmunoz@unibarranquilla.edu.co
 
-### Acknowledgements 
+# Acknowledgements 
  1. Nazareno Anselmi
     - [How install Ubunto - nagios](https://tecnolitas.com/blog/como-instalar-nagios-en-ubuntu-20-04/)
     - [How install nagios NRPE](https://www.youtube.com/watch?v=7qZv50kweys )
