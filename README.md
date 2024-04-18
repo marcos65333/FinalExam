@@ -62,7 +62,11 @@ Place text here
     Clientes (Client)
 
 		Steps for Nagios installation
+    Step 1: Update the System
+   ``` sudo apt update```
+   
 
+    
 
 ### Usage (Por qué es importante usarlo)
 -Nagios is important for several reasons:
