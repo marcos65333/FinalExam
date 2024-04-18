@@ -62,10 +62,10 @@ Place text here
 
 ### Steps for Nagios installation
     
-    Step 1: Update the System
-	``` sudo apt update sudo apt upgrade  ```
-    Step 2: Install packages 
-	``` sudo apt install wget unzip vim curl gcc openssl build-essential libgd-dev libssl-dev libapache2-mod-php php-gd php apache2 ```
+Step 1: Update the System
+	sudo apt update sudo apt upgrade  
+Step 2: Install packages 
+	sudo apt install wget unzip vim curl gcc openssl build-essential libgd-dev libssl-dev libapache2-mod-php php-gd php apache2 ```
 
 ### Step 3: Download Nagios Core on Ubunto 20.04. execute the follow command
     export VER="4.4.6" 
