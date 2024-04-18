@@ -97,11 +97,11 @@ This downloads a directory called nagios-4.4.6 to your current working directory
 
 ### Therefore, run the following command to install the init script to the /lib/systemd/system path.
     sudo make install-init
-### A continuación, instala y configura los permisos en el directorio que contiene el archivo del comando externo.
+### Next, install and configure permissions on the directory that contains the external command file.
     sudo make install-commandmode
 ### Next, install the example configuration files in /usr/local/nagios/etc/
     sudo make install-config
-### En este punto, activa el módulo Apache necesario para la interfaz web de Nagios
+### At this point, activate the Apache module necessary for the Nagios web interface
     sudo make install-webconf
     sudo a2enmod rewrite cgi
     sudo systemctl restart apache2
