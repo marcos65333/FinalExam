@@ -81,6 +81,8 @@ Place text here
  * juandmunoz@unibarranquilla.edu.co
 
 ### Acknowledgements (Agradecimientos)
+ (Nazareno Anselmi)
  * https://tecnolitas.com/blog/como-instalar-nagios-en-ubuntu-20-04/
- * https://www.youtube.com/watch?v=7qZv50kweys (Nazareno Anselmi)
+ * https://www.youtube.com/watch?v=7qZv50kweys
+ * https://www.youtube.com/watch?v=7qZv50kweys&ab_channel=NazarenoAnselmi
 
