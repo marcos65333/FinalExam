@@ -77,6 +77,8 @@ This downloads a directory called nagios-4.4.6 to your current working directory
     cd nagios-4.4.6
 ### Execute the configuration script
     ./configure
+### This will take a few seconds and make sure you get an example output shown below towards the end.
+	![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/79f62b61-4a38-4926-962b-37f049044aab)
 
 ## Usage 
 -Nagios is important for several reasons:
