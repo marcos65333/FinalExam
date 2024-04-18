@@ -81,7 +81,7 @@ This downloads a directory called nagios-4.4.6 to your current working directory
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/79f62b61-4a38-4926-962b-37f049044aab)
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> To compile the main program along with the CGIs, run the make all command as follows.
 
 ## Usage 
 -Nagios is important for several reasons:
