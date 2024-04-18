@@ -173,7 +173,7 @@ With all the configurations established and ready, proceed to start the nagios s
    needs.
 Place text here
 
-[Contribution guidelines for this project](docs/NRPE.md)
+[How Install Agent NRPE](/NRPE.md)
 
 ## FAQ 
 
