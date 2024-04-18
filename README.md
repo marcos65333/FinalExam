@@ -102,7 +102,14 @@ This downloads a directory called nagios-4.4.6 to your current working directory
     sudo make install-commandmode
 ### Next, install the example configuration files in /usr/local/nagios/etc/
     sudo make install-config
-
+### En este punto, activa el módulo Apache necesario para la interfaz web de Nagios
+    sudo make install-webconf
+    sudo a2enmod rewrite cgi
+    sudo systemctl restart apache2
+### Also, feel free to install the Nagios exfoliation theme as follows: 
+    sudo make install-exfoliation
+### For the classic Nagios theme, run the following command.
+    sudo make install-classicui
 
 ## Usage 
 -Nagios is important for several reasons:
