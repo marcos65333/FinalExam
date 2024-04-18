@@ -95,8 +95,9 @@ Place text here
 
 ### Acknowledgements (Agradecimientos)
  1. Nazareno Anselmi
-    - [ How install Ubunto - nagios ] (https://tecnolitas.com/blog/como-instalar-nagios-en-ubuntu-20-04/)
-    - [ How install nagios NRPE ] (https://www.youtube.com/watch?v=7qZv50kweys )
+    - [How install Ubunto - nagios](https://tecnolitas.com/blog/como-instalar-nagios-en-ubuntu-20-04/)
+    - [How install nagios NRPE](https://www.youtube.com/watch?v=7qZv50kweys )
  2. Pavel Saavedra
-    - [ Monitoring devices and network services using nagios ] (https://www.youtube.com/watch?v=40nUAYv-zQs&ab_channel=PavelSaavedra)
+    - [Monitoring devices and network services using nagios](https://www.youtube.com/watch?v=40nUAYv-zQs&ab_channel=PavelSaavedra)
+
 
