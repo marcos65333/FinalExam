@@ -60,6 +60,8 @@ Place text here
 		Item3 - plugins 
    Clientes (Client)
 
+```Steps for Nagios installation```
+
 ### Usage (Por qué es importante usarlo)
 -Nagios is important for several reasons:
 
