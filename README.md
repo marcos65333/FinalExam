@@ -1,7 +1,7 @@
 Nagios monitoring guide
 =================
 
-### Authors 
+# Authors 
 | Author                | Origin                               |
 | --------------------- | ------------------------------------ |
 | Marcos Tovar          | UniBarranquilla - IUB                |
