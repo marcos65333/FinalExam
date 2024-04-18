@@ -63,7 +63,10 @@ Place text here
 
 		Steps for Nagios installation
     Step 1: Update the System
-   ``` sudo apt update```
+   ```
+	   sudo apt update
+	   sudo apt upgrade
+   ```
    
 
     
