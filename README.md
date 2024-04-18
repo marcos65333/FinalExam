@@ -93,7 +93,6 @@ This downloads a directory called nagios-4.4.6 to your current working directory
 ### Next, install Nagios Core 4.x on your Ubuntu 20.04 system
     sudo make install 
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/b80272c3-95ee-4861-8801-0fd444168c56)
-
 ### Towards the end, some additional instructions will print as shown above.
 
 ### Therefore, run the following command to install the init script to the /lib/systemd/system path.
@@ -110,6 +109,10 @@ This downloads a directory called nagios-4.4.6 to your current working directory
     sudo make install-exfoliation
 ### For the classic Nagios theme, run the following command.
     sudo make install-classicui
+    
+##  Step 5: Create a Nagios access web user
+### You need to create a login user that will be used to log in to the Nagios interface. We will create a user named nagiosadmin using the command.
+    sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
 
 ## Usage 
 -Nagios is important for several reasons:
