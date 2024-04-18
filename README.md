@@ -122,8 +122,9 @@ This downloads a directory called nagios-4.4.6 to your current working directory
 
 ##  Step 6: Install the Nagios plugins
 Plugins are used to extend the functionality of Nagios. You can check out the latest plugins from GitHub.
-To download the plugins, run the command
->     sudo 
+### To download the plugins, run the command
+>     VER="2.3.3"
+>     curl -SL https://github.com/nagios-plugins/nagios-plugins/releases/download/release-$VER/nagios-plugins-$VER.tar.gz | tar -xzf -
 ## Usage 
 -Nagios is important for several reasons:
 
