@@ -90,6 +90,15 @@ This downloads a directory called nagios-4.4.6 to your current working directory
     sudo usermod -a -G nagios www-data
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/99d86155-4378-4c81-a603-636a83fa5b90)
 
+### Next, install Nagios Core 4.x on your Ubuntu 20.04 system
+    sudo make install 
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/b80272c3-95ee-4861-8801-0fd444168c56)
+
+### Towards the end, some additional instructions will print as shown above.
+
+### Therefore, run the following command to install the init script to the /lib/systemd/system path.
+    sudo make install-init
+
 ## Usage 
 -Nagios is important for several reasons:
 
