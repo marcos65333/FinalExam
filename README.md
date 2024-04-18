@@ -1,4 +1,4 @@
-Nagios monitoring guide
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/5b6a25a3-8796-442f-a8e8-808e32e95351)Nagios monitoring guide
 =================
 
 ### Authors 
@@ -61,12 +61,18 @@ Place text here
     Clientes (Client)
 
     Steps for Nagios installation
+    
     	Step 1: Update the System
   	 	``` sudo apt update sudo apt upgrade  ```
    	Step 2: Install packages 
   	 	``` sudo apt install wget unzip vim curl gcc openssl build-essential libgd-dev libssl-dev libapache2-mod-php php-gd php apache2 ```
+     	Step 3: Download Nagios Core on Ubunto 20.04. execute the follow command
+      		```  export VER="4.4.6" ```
+		```  curl -SL https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-$VER/nagios-$VER.tar.gz | tar -xzf - ```
+  		```  This downloads a directory called nagios-4.4.6 to your current working directory. ```
+               ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/45aada01-49b9-4430-88c3-192c3100f3e3)
 
-    
+    	```  ```
 
 ### Usage 
 -Nagios is important for several reasons:
