@@ -9,8 +9,9 @@ Nagios monitoring guide
 | Juan Muñoz            | UniBarranquilla - IUB                |
 
 ### Abstract (Resumen)
-
-Place text here
+	
+This guide is designed to provide a comprehensive overview of implementing and utilizing Nagios for effective monitoring of IT infrastructure. Created by experts from UniBarranquilla, this document details the essential prerequisites, installation steps, and operational procedures necessary to deploy Nagios effectively. Through real-time monitoring of servers, networks, services, and applications, Nagios offers invaluable insights into system performance and health. This guide aims to equip system administrators with the necessary tools and knowledge to proactively address issues, minimize downtime, and optimize resources. Furthermore, it includes practical examples, such as screenshots and detailed descriptions of key ICT tools, to assist in the practical application of Nagios in a variety of IT environments.
+	
 
 ### Screenshots (Pantallazos)
 
@@ -18,7 +19,7 @@ Place text here
 
 ### TOOLS TIC'S (Herramientas TIC'S)
 
-Place text here
+	
 
 ### Status (Estado del trabajo)
 
