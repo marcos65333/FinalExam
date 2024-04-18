@@ -27,8 +27,16 @@ Place text here
 | <img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized"> | The study was finished | 
 
 ### Keyworks (Palabras claves)
-
-Place text here
+   * Nagios
+   * Linux
+   * Apache
+   * Monitoring
+   * Tcp
+   * Ubuntu
+   * Docker
+   * Cloud
+   * Ip
+   * Plugin
 
 ### Roadmap (Hoja de ruta)
 
