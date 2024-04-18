@@ -83,9 +83,12 @@ This downloads a directory called nagios-4.4.6 to your current working directory
 
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/79f62b61-4a38-4926-962b-37f049044aab)
 
-
 ### To compile the main program along with the CGIs, run the make all command as follows.
     sudo make all
+### Next, create the group users as follows.
+    sudo make install-groups-users
+    sudo usermod -a -G nagios www-data
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/99d86155-4378-4c81-a603-636a83fa5b90)
 
 ## Usage 
 -Nagios is important for several reasons:
