@@ -70,7 +70,7 @@ Place text here
 	```  export VER="4.4.6" ```
 	```  curl -SL https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-$VER/nagios-$VER.tar.gz | tar -xzf - ```
 	```  This downloads a directory called nagios-4.4.6 to your current working directory. ```
-	![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/5b6a25a3-8796-442f-a8e8-808e32e95351)	
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/5b6a25a3-8796-442f-a8e8-808e32e95351)	
 	```  ```
 
 ### Usage 
