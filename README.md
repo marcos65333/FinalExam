@@ -37,6 +37,8 @@ Place text here
    * Cloud
    * Ip
    * Plugin
+   * Email
+   * Sftp
 
 ### Roadmap (Hoja de ruta)
 
@@ -85,4 +87,6 @@ Place text here
  * https://tecnolitas.com/blog/como-instalar-nagios-en-ubuntu-20-04/
  * https://www.youtube.com/watch?v=7qZv50kweys
  * https://www.youtube.com/watch?v=7qZv50kweys&ab_channel=NazarenoAnselmi
+ - Pavel Saavedra
+ * https://www.youtube.com/watch?v=40nUAYv-zQs&ab_channel=PavelSaavedra
 
