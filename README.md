@@ -33,8 +33,9 @@ Place text here
 ### Roadmap (Hoja de ruta)
 
 	 Pre-requisitos (Pre-Requisites)
-  		- LINUX 
-    		
+  		- George Washington
+		* John Adams
+		+ Thomas Jefferson
 	 Instalación (Installation)
 
 		Servidor (Server)
