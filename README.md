@@ -51,11 +51,12 @@ Place text here
   * Linux
   * Apache
   * Docker
-		Servidor (Server)
-			Item1
-			Item2
-			Item3 - plugins 
-		Clientes (Client)
+    
+    Servidor (Server)
+		Item1
+		Item2
+		Item3 - plugins 
+   Clientes (Client)
 
 ### Usage (Por qué es importante usarlo)
 -Nagios is important for several reasons:
