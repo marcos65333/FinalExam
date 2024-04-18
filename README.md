@@ -33,7 +33,8 @@ Place text here
 ### Roadmap (Hoja de ruta)
 
 	 Pre-requisitos (Pre-Requisites)
-  		* LINUX 
+  		- LINUX 
+    		
 	 Instalación (Installation)
 
 		Servidor (Server)
