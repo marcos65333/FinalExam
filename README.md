@@ -16,7 +16,7 @@ This guide is designed to provide a comprehensive overview of implementing and u
 
 Place text here
 
-### TOOLS TIC'S (
+### TOOLS TIC'S 
 
 	
 
