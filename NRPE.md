@@ -1,3 +1,3 @@
-HOW INSTALL NRPE FOR NAGIOS
+How Install NRPE for Nagios
 =================
 
