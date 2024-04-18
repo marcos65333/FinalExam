@@ -5,8 +5,8 @@ Title
 
 | Author                | Origin                               |
 | --------------------- | ------------------------------------ |
-| Emmanuel Gutiérrez    | UniBarranquilla - IUB                |
-| Alvin Henao           | UniBarranquilla - IUB                |
+| Marcos Tovar          | UniBarranquilla - IUB                |
+| Juan Muñoz            | UniBarranquilla - IUB                |
 
 ### Abstract (Resumen)
 
