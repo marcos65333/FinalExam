@@ -83,9 +83,9 @@ Place text here
  * juandmunoz@unibarranquilla.edu.co
 
 ### Acknowledgements (Agradecimientos)
- - Nazareno Anselmi
- * https://tecnolitas.com/blog/como-instalar-nagios-en-ubuntu-20-04/
- * https://www.youtube.com/watch?v=7qZv50kweys
+ 1. Nazareno Anselmi
+    - https://tecnolitas.com/blog/como-instalar-nagios-en-ubuntu-20-04/ ( How install Ubunto - nagios )
+    - https://www.youtube.com/watch?v=7qZv50kweys (How install nagios NRPE)
  * https://www.youtube.com/watch?v=7qZv50kweys&ab_channel=NazarenoAnselmi
  - Pavel Saavedra
  * https://www.youtube.com/watch?v=40nUAYv-zQs&ab_channel=PavelSaavedra
