@@ -110,7 +110,7 @@ This downloads a directory called nagios-4.4.6 to your current working directory
 ### For the classic Nagios theme, run the following command.
     sudo make install-classicui
     
-##  Step 5: Create a Nagios access web user
+###  Step 5: Create a Nagios access web user
 ### You need to create a login user that will be used to log in to the Nagios interface. We will create a user named nagiosadmin using the command.
     sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
     
@@ -120,11 +120,43 @@ This downloads a directory called nagios-4.4.6 to your current working directory
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/7feb9fbe-b474-4a2c-a515-bcdeece6774e)
 > The password is written to the /usr/local/nagios/etc/htpasswd.users file.
 
-##  Step 6: Install the Nagios plugins
+###  Step 6: Install the Nagios plugins
 Plugins are used to extend the functionality of Nagios. You can check out the latest plugins from GitHub.
 ### To download the plugins, run the command
->     VER="2.3.3"
->     curl -SL https://github.com/nagios-plugins/nagios-plugins/releases/download/release-$VER/nagios-plugins-$VER.tar.gz | tar -xzf -
+     VER="2.3.3"
+     curl -SL https://github.com/nagios-plugins/nagios-plugins/releases/download/release-$VER/nagios-plugins-$VER.tar.gz | tar -xzf -
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/93bee41f-eb20-467a-8724-e7bb42dbbf85)
+
+### In your current working directory, you will have another directory – nagios-plugins-2.3.3
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/942cfa1a-c6e6-4b9a-8874-ee0530c8846c)
+
+### To install the plugins, navigate to the plugins source directory:
+    cd nagios-plugins-2.3.3
+### Next, compile the Nagios plugins from source as follows:
+    ./configure --with-nagios-user=nagios --with-nagios-group=nagios
+    sudo make install
+### Once the installation is complete, verify that all the configurations are in order as shown.
+    sudo /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/c96e4cd1-79e8-4c8a-b43d-3bdfefe2ded4)
+
+### Step 7: Start and enable the Nagios daemon
+With all the configurations established and ready, proceed to start the nagios service as follows:
+### To start the Nagios service run:
+    sudo systemctl enable --now nagios
+### Confirm that the Nagios service is running.
+    sudo systemctl status nagios
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/af277a30-508c-42c4-abc4-56fbe285a7ef)
+> [!IMPORTANT]
+> The output confirms that Nagios is working.
+
+### Step 8: Access Nagios
+### And finally, we reach the last step where we will access Nagios. To do this, simply open your web browser and go to the displayed URL.
+    http://ip_servidor/nagios
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/1633def4-6ef1-4fcf-ae93-42f2f54b561d)
+
+### Once authenticated, you will be taken to the control panel shown below
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/a20acacb-6039-41b2-b1d0-f9c9e15e68c3)
+
 ## Usage 
 -Nagios is important for several reasons:
 
