@@ -77,9 +77,10 @@ Place text here
 5 preguntas y respuestas
 
 ### Contacts (Contactos)
-
-Place text here
+ * mantoniotovar@unibarranquilla.edu.co
+ * juandmunoz@unibarranquilla.edu.co
 
 ### Acknowledgements (Agradecimientos)
  * https://tecnolitas.com/blog/como-instalar-nagios-en-ubuntu-20-04/
+ * https://www.youtube.com/watch?v=7qZv50kweys (Nazareno Anselmi)
 
