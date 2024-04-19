@@ -18,9 +18,9 @@ This guide is designed to provide a comprehensive overview of implementing and u
 
 
 ## TOOLS TIC'S 
-Oracle Virtual Box
-Ubuntu Server
-Putty
+    * Oracle Virtual Box
+    * Ubuntu Server
+    * Putty
 	
 
 ## Status
