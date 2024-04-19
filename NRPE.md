@@ -13,3 +13,18 @@ Execute the following command, replacing  https://github.com/NagiosEnterprises/n
 
     wget  https://github.com/NagiosEnterprises/nrpe/releases
 
+## 3 Step:
+Let’s unpack the downloaded file using the following command:
+
+    tar -xzvf nrpe-<NRPE_version>.tar.gz
+
+Make sure to replace <NRPE_version> with the specific version of NRPE that you downloaded. You can use the Tab key to autocomplete the filename.
+
+## 4 Step:
+Navigate to the directory created after extracting the file:
+
+    cd nrpe<tab to autocomplete>
+
+Then, execute the following command to configure NRPE:
+
+    ./configure
