@@ -58,3 +58,5 @@ Scroll to the end of the file and add the following command definition:
 Press the Esc key to switch to command mode, then save the file by typing:
 
     :wq
+
+[Install plugins nagios](/Install Plugins Nagios.md)
