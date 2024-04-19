@@ -28,3 +28,33 @@ Navigate to the directory created after extracting the file:
 Then, execute the following command to configure NRPE:
 
     ./configure
+
+## 5 Step:
+Once the installation is done, execute the following command. This command is the executable used to query the server and will be useful for plugins:
+
+    make check_nrpe
+
+After completing the installation, execute the following command to install the plugins:
+
+    make install-plugins
+
+## 6 Step:
+We’ll create a command that allows Nagios to use the NRPE command we just set up.
+Navigate to the following location:
+
+    cd /usr/local/nagios/etc/objects/
+
+Next, open the commands.cfg file using the vim editor:
+
+    vim commands.cfg
+
+Scroll to the end of the file and add the following command definition:
+
+    define command{
+          command_name check_nrpe
+          command_line $USER1$/check_nrpe -H $HOSTADDRESS$ -c $ARG1$
+    }
+
+Press the Esc key to switch to command mode, then save the file by typing:
+
+    :wq
