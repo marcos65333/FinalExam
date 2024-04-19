@@ -22,3 +22,70 @@ Replace ip_nagios_server with the actual IP address of your Nagios server.
 After making configuration changes, restart the NRPE service:
 
     sudo /etc/init.d/nagios-nrpe-server restart
+
+
+## Now, on our Nagios server, we will do the following:
+Create the “servers” Directory:
+Create a directory named “servers” within the path
+
+    cd /usr/local/nagios/etc/
+
+    mkdir servers
+
+    cd servers
+Create the “clients.cfg” File:
+
+    nano clients.cfg
+
+Add the following configuration for the monitored client (replace placeholders with actual values):
+
+    define host {
+        use                     linux-server
+        host_name               client
+        alias                   client
+        address                 <IP of the server to be monitored>
+        max_check_attempts      5
+        check_period            24x7
+        notification_interval   30
+        notification_period     24x7
+    }
+
+    define service {
+        use                     generic-service
+        host_name               client
+        service_description     HTTP
+        check_command           check_http!-H <IP of the page> -p <port of the page>
+        notifications_enabled   1
+    }
+
+    define service {
+        use                     generic-service
+        host_name               client
+        service_description     Connected Users
+        check_command           check_nrpe!check_users
+        notifications_enabled   1
+    }    
+
+    define service {
+        use                     generic-service
+        host_name               client
+        service_description     Disk Space (sd)
+        check_command           check_nrpe!check_sda
+        notifications_enabled   1
+    }
+
+    define service {
+        use                     generic-service
+        host_name               client
+        service_description     Zombie Processes
+        check_command           check_nrpe!check_zombie_procs
+        notifications_enabled   1
+    }
+
+    define service {
+        use                     generic-service
+        host_name               client
+        service_description     Total Processes
+        check_command           check_nrpe!check_total_procs
+        notifications_enabled   1
+    }
