@@ -14,7 +14,7 @@ This guide is designed to provide a comprehensive overview of implementing and u
 
 ## Screenshots 
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/a6f3e942-24e1-4f34-8f68-9cb1a9d625fb)
-![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/53908ddf-3dad-4488-bcda-4d0d6c056e74)
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/0b51ef80-21a4-46c2-b0f3-320abf744362)
 
 Place text here
 
