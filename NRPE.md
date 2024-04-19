@@ -59,4 +59,4 @@ Press the Esc key to switch to command mode, then save the file by typing:
 
     :wq
 
-[Install plugins nagios](/Install Plugins Nagios.md)
+[Install plugins nagios](/InstallPluginsNagios.md)
