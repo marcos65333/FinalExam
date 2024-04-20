@@ -60,6 +60,12 @@ Press the Esc key to switch to command mode, then save the file by typing:
     :wq
 
 > [!IMPORTANT]
-> The output confirms that Nagios is working.
+> Don’t forget to enable port 80 in the Nagios server’s firewall. This will allow HTTP requests to reach the server smoothly and be handled correctly. Port 80 is crucial for proper functioning of HTTP services and facilitating web communication. Additionally, port 5666 is commonly used for Nagios NRPE (Nagios Remote Plugin Executor) service. It allows the Nagios monitoring system to remotely execute scripts and plugins on the monitored hosts. So, enabling port 5666 is essential for effective monitoring and management of your Nagios infrastructure
+
+    sudo ufw allow 80
+
+    sudo ufw allow 5666
+
+    sudo ufw reload
 
 [Install plugins nagios](/InstallPluginsNagios.md)
