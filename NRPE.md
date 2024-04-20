@@ -59,4 +59,7 @@ Press the Esc key to switch to command mode, then save the file by typing:
 
     :wq
 
+> [!IMPORTANT]
+> The output confirms that Nagios is working.
+
 [Install plugins nagios](/InstallPluginsNagios.md)
