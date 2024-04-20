@@ -16,6 +16,9 @@ In this file, find the line containing allowed_hosts and add the IP address of y
 
     allowed_hosts=127.0.0.1,ip_nagios_server
 
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570461/c5999dde-352a-4182-b3a1-35cc289c7df9)
+
+
 Replace ip_nagios_server with the actual IP address of your Nagios server.
 
 ## 4 Step
