@@ -162,9 +162,7 @@ With all the configurations established and ready, proceed to start the nagios s
 ### Once authenticated, you will be taken to the control panel shown below
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/a20acacb-6039-41b2-b1d0-f9c9e15e68c3)
 
-> [!IMPORTANT]
-> ## [How Install Agent NRPE](/NRPE.md)
->
+
 
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/95aea846-49b3-46e4-985f-1a56b569aaa5)
 
@@ -196,5 +194,11 @@ Place text here
     - [How install nagios NRPE](https://www.youtube.com/watch?v=7qZv50kweys )
  2. Pavel Saavedra
     - [Monitoring devices and network services using nagios](https://www.youtube.com/watch?v=40nUAYv-zQs&ab_channel=PavelSaavedra)
+   
+
+
+> [!IMPORTANT]
+> ## [How Install Agent NRPE](/NRPE.md)
+>
 
 
