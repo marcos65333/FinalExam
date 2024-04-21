@@ -105,30 +105,48 @@ Add the following configuration for the monitored client (replace placeholders w
     
 > [!NOTE]
 > define host:
+> 
 > This directive defines a host to be monitored. A host can be a physical or virtual computer.
+> 
 > The components of this definition are:
+> 
 >   use: Specifies the template to be used for configuring this host. In this case, it’s linux-server.
+> 
 >      host_name: The name of the host, which in this case is client.
+> 
 >      alias: A friendlier alias or description for the host.
+> 
 >      address: The IP address of the server to be monitored.
+> 
 >      max_check_attempts: The maximum number of check attempts before considering the host as unavailable.
+> 
 >      check_period: The time period during which checks will be performed (in this case, 24x7, meaning all the time).
+> 
 >      notification_interval: The interval between problem notifications.
+> 
 >      notification_period: The time period during which notifications will be sent (also 24x7 in this case).
 > 
 > define service:
+> 
 > This directive defines a service that runs on the host.
+> 
 > Services can be actual services (like POP, SMTP, HTTP) or metrics related to the host (ping response, connected users, disk space, etc.).
+> 
 > The components of this definition are:
+> 
 >   use: The template to be used for configuring this service (in this case, generic-service).
+> 
 >      host_name: The name of the host to which this service applies (in this case, client).
 >      service_description: A description of the service (e.g., “HTTP”).
 >      check_command: The command to be used for checking the service (e.g., check_http!-H <IP of the page> -p <port of the page>).
 >      notifications_enabled: Whether notifications are enabled for this service (in this case, yes).
 >
 > Commands (check_command):
+> 
 > Commands specify how a service or host will be checked.
+> 
 > Some examples:
+> 
 >     check_http: Verifies if a web server is responding correctly.
 >     check_nrpe: Allows executing commands on the remote host via the NRPE (Nagios Remote Plugin Executor) agent.
 >     check_users: Verifies the number of connected users.
