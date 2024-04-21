@@ -44,9 +44,11 @@ Navigate to the following location:
 
     cd /usr/local/nagios/etc/objects/
 
-Next, open the commands.cfg file using the vim editor:
+Next, open the commands.cfg file using the vim editor or nano:
 
     vim commands.cfg
+
+    nano commands.cfg
 
 Scroll to the end of the file and add the following command definition:
 
@@ -55,9 +57,14 @@ Scroll to the end of the file and add the following command definition:
           command_line $USER1$/check_nrpe -H $HOSTADDRESS$ -c $ARG1$
     }
 
-Press the Esc key to switch to command mode, then save the file by typing:
+If you open the command file using the vim editor press the Esc key to switch to command mode, then save the file by typing:
 
     :wq
+
+Else if you open the command file using nano press ctrl + X and save the file
+
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570461/39e867be-d3df-4546-b00a-6ac8b70620cc)
+
 
 > [!IMPORTANT]
 > Don’t forget to enable port 80 in the Nagios server’s firewall. This will allow HTTP requests to reach the server smoothly and be handled correctly. Port 80 is crucial for proper functioning of HTTP services and facilitating web communication. Additionally, port 5666 is commonly used for Nagios NRPE (Nagios Remote Plugin Executor) service. It allows the Nagios monitoring system to remotely execute scripts and plugins on the monitored hosts. So, enabling port 5666 is essential for effective monitoring and management of your Nagios infrastructure
