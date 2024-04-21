@@ -162,7 +162,7 @@ With all the configurations established and ready, proceed to start the nagios s
 ### Once authenticated, you will be taken to the control panel shown below
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/a20acacb-6039-41b2-b1d0-f9c9e15e68c3)
 
-> ## [!IMPORTANT]
+> [!IMPORTANT]
 > ## [How Install Agent NRPE](/NRPE.md)
 >
 
