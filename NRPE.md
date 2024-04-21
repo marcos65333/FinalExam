@@ -68,4 +68,5 @@ Press the Esc key to switch to command mode, then save the file by typing:
 
     sudo ufw reload
 
-[Install plugins nagios](/InstallPluginsNagios.md)
+> [!IMPORTANT]
+> ## [Install plugins nagios](/InstallPluginsNagios.md)
