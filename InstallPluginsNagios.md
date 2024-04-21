@@ -102,3 +102,10 @@ Add the following configuration for the monitored client (replace placeholders w
         check_command           check_nrpe!check_total_procs
         notifications_enabled   1
     }
+
+
+Finally, we'll reboot the server so that all the settings are saved
+
+    sudo service nagios restart
+
+![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570461/effe9144-fea9-43f3-baf7-a84f1d4d3821)
