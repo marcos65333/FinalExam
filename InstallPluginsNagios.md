@@ -137,8 +137,11 @@ Add the following configuration for the monitored client (replace placeholders w
 >   use: The template to be used for configuring this service (in this case, generic-service).
 > 
 >      host_name: The name of the host to which this service applies (in this case, client).
+> 
 >      service_description: A description of the service (e.g., “HTTP”).
+> 
 >      check_command: The command to be used for checking the service (e.g., check_http!-H <IP of the page> -p <port of the page>).
+> 
 >      notifications_enabled: Whether notifications are enabled for this service (in this case, yes).
 >
 > Commands (check_command):
@@ -148,11 +151,17 @@ Add the following configuration for the monitored client (replace placeholders w
 > Some examples:
 > 
 >     check_http: Verifies if a web server is responding correctly.
+> 
 >     check_nrpe: Allows executing commands on the remote host via the NRPE (Nagios Remote Plugin Executor) agent.
+> 
 >     check_users: Verifies the number of connected users.
->     check_sda: Verifies disk space on the /dev/sda partition. This command is named this way due to the modification we made in the NRPE agent, as I am using 
-                                                                 an SSD (Solid State Drive) instead of an HDD (Hard Disk Drive)
+> 
+>     check_sda: Verifies disk space on the /dev/sda partition. This command is named this way due to the modification we made in the NRPE agent, as I am using an SSD (Solid State Drive) instead of an HDD (Hard Disk Drive)
+
+>
+>
 >     check_zombie_procs: Checks for zombie processes.
+> 
 >     check_total_procs: Verifies the total number of running processes.
 
 Finally, we'll reboot the server so that all the settings are saved
