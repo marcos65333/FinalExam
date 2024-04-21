@@ -1,17 +1,17 @@
 Installation of Plugins on the server want to monitor
 ============
 
-## 1 Step:
+## Step 1:
 Execute the following command to install NRPE and Nagios plugins:
 
     sudo apt-get install nagios-nrpe-server nagios-plugins
 
-## 2 Step:
+## Step 2:
 Open the NRPE configuration file:
 
     sudo nano /etc/nagios/nrpe.cfg
 
-## 3 Step:
+## Step 3:
 In this file, find the line containing allowed_hosts and add the IP address of your Nagios server. For example:
 
     allowed_hosts=127.0.0.1,ip_nagios_server
@@ -31,7 +31,7 @@ Review your commands in the file and modify the disk command so that you can see
 
 
 
-## 4 Step
+## Step 4:
 After making configuration changes, restart the NRPE service:
 
     sudo /etc/init.d/nagios-nrpe-server restart
