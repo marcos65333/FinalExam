@@ -188,6 +188,7 @@ Place text here
 To configure the HTTP service, we need to enter the 'clients.cfg' file. We must specify the command to execute, in this case, we'll use the 'check_http' command, which requires two parameters: the IP address of the host and the port on which our web server is running.
 
 clients.cfg
+
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/292138b2-1ded-4eda-addd-2705dcd02914)
 
 ## Contacts (Contactos)
