@@ -191,6 +191,10 @@ clients.cfg
 
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/292138b2-1ded-4eda-addd-2705dcd02914)
 
+### Can Nagios monitor multiple services simultaneously?
+ 	*   Yes, Nagios can monitor various statistics from different services concurrently, provided they are configured correctly.
+
+
 ## Contacts (Contactos)
  * mantoniotovar@unibarranquilla.edu.co
  * juandmunoz@unibarranquilla.edu.co
