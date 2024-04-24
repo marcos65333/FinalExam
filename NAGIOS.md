@@ -56,16 +56,17 @@ This guide is designed to provide a comprehensive overview of implementing and u
 	  * Shell Scripting: Basic proficiency in Linux shell scripting (e.g., bash) can prove helpful for customizing and automating tasks within Nagios.
 	  * Service Configuration and Monitoring: Understanding the workings of the services you intend to monitor with Nagios, as well as the ability to configure these services to enable monitoring.
 		
-    Instalación 
+    Installation 
 	  * Linux Ubuntu 20.04
 	  * Apache
 	  * Docker
+          
     
-    Servidor (Server)
+    (Server)
 		Item1
 		Item2
 		Item3 - plugins 
-    Clientes (Client)
+    (Client)
 
 ## Steps for Nagios installation
     
