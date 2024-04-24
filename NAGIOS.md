@@ -23,7 +23,9 @@ This guide is designed to provide a comprehensive overview of implementing and u
     * Oracle Virtual Box
     * Ubuntu Server
     * Putty
-	
+    * Nginx
+    * Nagios
+    * Docker
 
 ## Status
 
