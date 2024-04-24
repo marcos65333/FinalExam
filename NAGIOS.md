@@ -61,12 +61,6 @@ This guide is designed to provide a comprehensive overview of implementing and u
 	  * Apache
 	  * Docker
           
-    
-    (Server)
-		Item1
-		Item2
-		Item3 - plugins 
-    (Client)
 
 ## Steps for Nagios installation
     
