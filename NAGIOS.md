@@ -163,6 +163,12 @@ With all the configurations established and ready, proceed to start the nagios s
 
 ![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/95aea846-49b3-46e4-985f-1a56b569aaa5)
 
+> [!IMPORTANT]
+> ## [How Install Agent NRPE](/NRPE.md)
+>
+
+
+
 ## Usage 
 -Nagios is important for several reasons:
 
@@ -194,8 +200,5 @@ Place text here
    
 
 
-> [!IMPORTANT]
-> ## [How Install Agent NRPE](/NRPE.md)
->
 
 
