@@ -184,19 +184,30 @@ With all the configurations established and ready, proceed to start the nagios s
 Place text here
 
 ## FAQ 
-### How do you configure an HTTP service monitoring service in Nagios?
-To configure the HTTP service, we need to enter the 'clients.cfg' file. We must specify the command to execute, in this case, we'll use the 'check_http' command, which requires two parameters: the IP address of the host and the port on which our web server is running.
 
-clients.cfg
+Claro, aquí tienes cinco preguntas frecuentes sobre Nagios, junto con sus respuestas en inglés:
 
-![image](https://github.com/marcos65333/Nagios-monitoring-guide/assets/87570696/292138b2-1ded-4eda-addd-2705dcd02914)
+1. **What is Nagios used for?**
+   - Nagios is a powerful monitoring system that allows organizations to identify and resolve IT infrastructure problems before they affect critical business processes.
 
-### Can Nagios monitor multiple services simultaneously?
-Yes, Nagios can monitor various statistics from different services concurrently, provided they are configured correctly.
+2. **How does Nagios work?**
+   - Nagios works by periodically executing checks on various infrastructure components, such as servers, switches, and services. These checks are configured based on user-defined criteria, and Nagios alerts administrators when predefined thresholds are exceeded or issues arise.
 
-### What benefits come with a paid license?
-A paid license provides access to additional tools and facilitates easier configuration.
+3. **What are the key features of Nagios?**
+   - Some key features of Nagios include:
+     - Monitoring of network services (SMTP, POP3, HTTP, etc.)
+     - Monitoring of host resources (CPU load, disk usage, etc.)
+     - Support for parallelized service checks
+     - Ability to define network host hierarchy
+     - Flexible notification options (email, SMS, etc.)
+     - Customizable web interface for viewing status information
 
+4. **What is the difference between Nagios Core and Nagios XI?**
+   - Nagios Core is the open-source version of Nagios, providing a basic monitoring framework and allowing for extensive customization and integration. Nagios XI, on the other hand, is a commercial offering that builds upon Nagios Core with additional features, such as a more user-friendly web interface, configuration wizards, and advanced reporting capabilities.
+
+5. **Can Nagios monitor non-traditional IT infrastructure?**
+   - Yes, Nagios can monitor a wide range of non-traditional IT infrastructure, including environmental factors like temperature and humidity, as well as business processes such as website transactions and database queries. This flexibility makes Nagios a versatile tool for monitoring diverse systems and services within an organization.
+   - 
 ## Contacts (Contactos)
  * mantoniotovar@unibarranquilla.edu.co
  * juandmunoz@unibarranquilla.edu.co
