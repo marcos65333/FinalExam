@@ -184,8 +184,11 @@ With all the configurations established and ready, proceed to start the nagios s
 Place text here
 
 ## FAQ 
+### How do you configure an HTTP service monitoring service in Nagios?
+To configure the HTTP service, we need to enter the 'clients.cfg' file. We must specify the command to execute, in this case, we'll use the 'check_http' command, which requires two parameters: the IP address of the host and the port on which our web server is running.
 
-5 preguntas y respuestas
+clients.cfg
+![Uploading image.png…]()
 
 ## Contacts (Contactos)
  * mantoniotovar@unibarranquilla.edu.co
